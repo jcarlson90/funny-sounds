@@ -1,0 +1,63 @@
+/* General styling for button container */
+.fart-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 250px;
+  background-image: url('/src/images/veggies2.jpg');
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  background-blend-mode:soft-light;
+
+}
+
+.title {
+  font-family: 'chuckWave';
+  font-size: calc(100px + 2vmin);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: -50px;
+  color: antiquewhite;
+  text-shadow: 
+  -4px -4px 0 black,  
+   4px -4px 0 black,  
+  -4px  4px 0 black,  
+   4px  4px 0 black; 
+}
+
+/* Row container styling */
+.one-two, .three-four, .five-six, .seven-eight {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px;
+}
+
+/* Button styling */
+button {
+  font-family: 'chuckWave';
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: antiquewhite;
+  background-color: #000000;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ae327;
+  color: #000000;
+}
+
+button:active {
+  transform: scale(0.95);
+}
